@@ -48,7 +48,7 @@ main {
   color: #272044;
 }
 img {
-  max-width: 100%;
+  width: 100%;
 }
 section {
   max-width: 100%;
@@ -107,11 +107,18 @@ footer a:hover {
 .grid-3-col {
   grid-template-columns: 1fr 1fr 1fr;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
 .card {
   background: white;
 }
 .card h4 {
   margin-top: 0px;
+}
+.card-header.grid {
+  grid-gap: 0px;
 }
 .card-body {
   margin: 10px 20px 20px 20px;
@@ -153,5 +160,11 @@ footer a:hover {
   }
   .grid {
     grid-template-columns: 1fr;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
