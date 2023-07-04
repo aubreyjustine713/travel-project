@@ -43,6 +43,9 @@ header a {
   color: #272044;
   padding: 16px 32px;
 }
+header a:hover {
+  text-decoration: underline;
+}
 main {
   background-color: white;
   color: #272044;
@@ -53,9 +56,9 @@ img {
 section {
   max-width: 100%;
   margin: 0 auto;
-  padding: 100px;
+  padding: 50px 100px;
 }
-h4 {
+section h4 {
   font-weight: 700;
   font-size: 20px;
 }
@@ -86,6 +89,9 @@ footer a {
 }
 footer a:hover {
   text-decoration: underline;
+}
+footer section {
+  padding: 0px 100px;
 }
 .container {
   max-width: 1400px;
@@ -136,6 +142,9 @@ footer a:hover {
   text-decoration: none;
   padding: 16px 32px;
 }
+.btn:hover {
+  text-decoration: underline;
+}
 .grid-footer {
   grid-template-columns: 1fr 2fr 2fr;
 }
@@ -156,7 +165,7 @@ footer a:hover {
     padding: 40px;
   }
   footer {
-    padding: 20px 0;
+    padding: 20px 0px;
   }
   .grid {
     grid-template-columns: 1fr;
