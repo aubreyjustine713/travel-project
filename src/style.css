@@ -50,6 +50,15 @@ main {
 img {
   max-width: 100%;
 }
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+h4 {
+  font-weight: 700;
+  font-size: 20px;
+}
 footer {
   color: white;
   background-image: linear-gradient(rgba(1, 46, 82, 0.4), rgba(39, 32, 68, 0.6)),
@@ -78,18 +87,15 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
-section {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 100px;
-}
-h4 {
-  font-weight: 700;
-  font-size: 20px;
-}
 .container {
   max-width: 1400px;
   margin: 0 auto;
+}
+.secondary {
+  background: rgb(200, 219, 231);
+}
+.text-center {
+  text-align: center;
 }
 .grid {
   display: grid;
@@ -97,6 +103,31 @@ h4 {
 }
 .grid-2-col {
   grid-template-columns: 1fr 1fr;
+}
+.grid-3-col {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+  background: white;
+}
+.card h4 {
+  margin-top: 0px;
+}
+.card-body {
+  margin: 10px 20px 20px 20px;
+}
+.btn {
+  display: block;
+  color: white;
+  background: #272044;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px 32px;
 }
 .grid-footer {
   grid-template-columns: 1fr 2fr 2fr;
