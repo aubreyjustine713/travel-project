@@ -97,6 +97,9 @@ footer section {
   max-width: 1400px;
   margin: 0 auto;
 }
+.bright {
+  filter: brightness(1.1);
+}
 .secondary {
   background: rgb(200, 219, 231);
 }
@@ -128,6 +131,14 @@ footer section {
 }
 .card-body {
   margin: 10px 20px 20px 20px;
+}
+table {
+  margin-bottom: 20px;
+}
+table td {
+  border: 1px solid #272044;
+  text-align: center;
+  padding: 5px;
 }
 .btn {
   display: block;
