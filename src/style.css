@@ -91,7 +91,7 @@ footer a:hover {
   text-decoration: underline;
 }
 footer section {
-  padding: 0px 100px;
+  max-width: 1200px;
 }
 .container {
   max-width: 1400px;
@@ -164,8 +164,8 @@ footer section {
   section {
     padding: 40px;
   }
-  footer {
-    padding: 20px 0px;
+  footer section {
+    padding: 0px 30px;
   }
   .grid {
     grid-template-columns: 1fr;
